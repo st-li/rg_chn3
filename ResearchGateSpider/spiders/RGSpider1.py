@@ -11,6 +11,7 @@ import pymongo
 import pandas as pd
 import hashlib
 import time
+import redis
 
 class RGSpider1(CrawlSpider):
     name = 'RGSpider1'
